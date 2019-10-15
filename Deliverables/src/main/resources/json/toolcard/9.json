@@ -1,0 +1,14 @@
+{
+	"name" : "Riga in Sughero" ,
+	"description" : "Dopo aver scelto un dado, piazzalo in una casella che non sia adiacente a un altro dado. Devi rispettare tutte le restrizioni di piazzamento" ,
+	"number" : 9,
+	"color" : "ANSI_YELLOW" ,
+	"toDo": [
+		"Scegli il dado della riserva da spostare\n",
+		"Scegli la colonna dove vuoi piazzare il dado\n",
+		"Scegli la riga dove voler piazzare il dado\n"
+	],
+	"effects":{
+		"Move":["FROM RESERVE", "TO PATTERN", "NO PROXIMITY"]
+	}
+}

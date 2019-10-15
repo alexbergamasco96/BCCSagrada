@@ -1,0 +1,13 @@
+{
+	"name" : "Pinza Sgrossatrice" ,
+	"description" : "Dopo aver scelto un dado, aumenta o diminuisci il valore del dado scelto di 1. Non puoi cambiare un 6 in 1 o un 1 in 6",
+	"color" : "ANSI_PURLPLE",
+	"number": 1,
+	"toDo": [
+		"Scegliere:\n\t1: Incrementare il valore di un dado\n\t2: Diminuire il valore di un dado",
+		"Selezionare l'indice del dado della riserva al quale si vuole cambiare valore"
+	],
+	"effects":{
+		"ChangeValue":["UP/DOWN"]
+	}
+}

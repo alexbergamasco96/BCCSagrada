@@ -1,0 +1,14 @@
+{
+	"name" : "Tenaglia a Rotelle" ,
+	"description" : "Dopo il tuo primo turno scegli immediatamente un altro dado. Salta il tuo secondo turno in questo round" ,
+	"number" : 8,
+	"color" : "ANSI_RED",
+	"toDo": [
+		"Scegli il dado da spostare:\n\tSelezionare il numero del dado nella riserva",
+		"\tScegli la nuova posizione del dado:\n\tSelezionare la colonna della nuova posizione",
+		"\tSelezionare la riga della nuova posizione"
+	],
+	"effects":{
+		"Move":["FROM RESERVE", "TO PATTERN", "NO SECOND TURN", "ONLY ON FIRST TURN"]
+	}
+}

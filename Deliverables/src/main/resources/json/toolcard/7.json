@@ -1,0 +1,10 @@
+{
+	"name" : "Martelletto" ,
+	"description" : "Tira nuovamente tutti i dadi della Riserva. Questa carta può essere usata solo durante il tuo secondo turno, prima di scegliere il secondo dado" ,
+	"number" : 7,
+	"color" : "ANSI_BLUE",
+	"toDo": [],
+	"effects":{
+		"ModifyTurn":["EXTRACT RESERVE"]
+	}
+}

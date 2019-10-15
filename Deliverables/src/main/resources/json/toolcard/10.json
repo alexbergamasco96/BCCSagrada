@@ -1,0 +1,12 @@
+{
+	"name" : "Tampone Diamantato" ,
+	"description" : "Dopo aver scelto un dado, giralo sulla faccia opposta. 6 diventa 1, 5 diventa 2, 4 diventa 3 ecc.",
+	"color" : "ANSI_GREEN",
+	"number": 10,
+	"toDo": [
+		"Selezionare l'indice del dado della riserva al quale si vuole cambiare valore"
+	],
+	"effects":{
+		"ChangeValue":["OPPOSITE"]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name" : "Lathekin" ,
+	"description" : "Muovi esattamente due dadi, rispettando tutte le restrizioni di piazzamento" ,
+	"color" : "ANSI_YELLOW" ,
+	"number": 4,
+	"toDo": [
+		"Scegli il primo dado da spostare:\n\tSelezionare la colonna del dado",
+		"\tSelezionare la riga del dado",
+		"\tScegli la nuova posizione del dado:\n\tSelezionare la colonna della nuova posizione",
+		"\tSelezionare la riga della nuova posizione",
+		"Scegli il secondo dado da spostare:\n\tSelezionare la colonna del dado",
+		"\tSelezionare la riga del dado",
+		"\tScegli la nuova posizione del dado:\n\tSelezionare la colonna della nuova posizione",
+		"\tSelezionare la riga della nuova posizione"
+	],
+	"effects":{
+		"Move":["FROM PATTERN", "TO PATTERN", "TWICE"]
+	}
+}

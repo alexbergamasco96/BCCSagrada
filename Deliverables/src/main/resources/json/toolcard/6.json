@@ -1,0 +1,13 @@
+{
+	"name" : "Pennello per Pasta Salda" ,
+	"description" : "Dopo aver scelto un dado, tira nuovamente quel dado. Se non puoi piazzarlo, riponilo nella Riserva" ,
+	"color" : "ANSI_PURPLE",
+	"number": 6,
+	"toDo": [
+		"Selezionare l'indice del dado della riserva che si vuole lanciare nuovamente"
+	],
+	"effects":{
+		"ChangeValue":["ROLL"]
+	}
+	
+}

@@ -1,0 +1,14 @@
+{
+	"name" : "Taglierina circolare" ,
+	"description" : "Dopo aver scelto un dado, scambia quel dado con un dado sul Tracciato dei Round" ,
+	"number" : 5,
+	"color" : "ANSI_GREEN" ,
+	"toDo": [
+		"Scegli il dado della riserva da spostare\n",
+		"Scegli il dado del roundtrack:\nScegliere il numero del round\n",
+		"Scegli il dado\n"
+	],
+	"effects":{
+		"ChangePosition":["RESERVE", "ROUNDTRACK"]
+	}
+}

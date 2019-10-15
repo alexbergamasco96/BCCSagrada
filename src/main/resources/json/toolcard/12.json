@@ -1,0 +1,20 @@
+{
+	"name" : "Taglierina Manuale" ,
+	"description" : "Muovi fino a due dadi dello stesso colore di un solo dado sul Tracciato dei Round. Devi rispettare tutte le restrizioni di piazzamento" ,
+	"color" : "ANSI_BLUE" ,
+	"number": 12,
+	"toDo": [
+		"\tSelezionare quanti dadi si vogliono spostare (1 oppure 2)",
+		"\tScegli il primo dado da spostare:\n\tSelezionare la colonna del dado",
+		"\tSelezionare la riga del dado",
+		"\tScegli la nuova posizione del dado:\n\tSelezionare la colonna della nuova posizione",
+		"\tSelezionare la riga della nuova posizione",
+		"Scegli il secondo dado da spostare:\n\tSelezionare la colonna del dado",
+		"\tSelezionare la riga del dado",
+		"\tScegli la nuova posizione del dado:\n\tSelezionare la colonna della nuova posizione",
+		"\tSelezionare la riga della nuova posizione"
+	],
+	"effects":{
+		"Move":["FROM PATTERN", "TO PATTERN", "VARIABLE", "CHECK COLOR IN ROUNDTRACK"]
+	}
+}

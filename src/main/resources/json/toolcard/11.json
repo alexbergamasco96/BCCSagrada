@@ -1,0 +1,12 @@
+{
+	"name" : "Diluente per PastaSalda" ,
+	"description" : "Dopo aver scelto un dado, riponilo nel Sacchetto, poi pescane uno dal Sacchetto. Scegli il valore del nuovo dado e piazzalo, rispettando tutte le restrizioni di piazzamento" ,
+	"color" : "ANSI_PURPLE",
+	"number": 11,
+	"toDo": [
+		"\tSelezionare l'indice del dado della riserva che si vuole riporre nel sacchetto"
+	],
+	"effects":{
+		"ChangePosition":["RESERVE", "DICE BAG"]
+	}
+}
